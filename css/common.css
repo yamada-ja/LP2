@@ -658,13 +658,33 @@ footer {
 }
 
 @media screen and (max-width: 540px) {
+  .how_to {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
   .faq .more {
-    width:25% 
+    width: unset;
+    margin: 0 27vw; 
   }
   .contact_btn .btn {
-    width: 20%;
+    width: unset;
+    margin: 0 27vw;
   }
   .pages {
     width: 90%;
   }
 }
+
+
+@media screen and (max-width: 320px) {
+  .faq .more {
+    width: unset;
+    margin: 0 20vw; 
+  }
+  .contact_btn .btn {
+    width: unset;
+    margin: 0 20vw;
+  }
+}
+
